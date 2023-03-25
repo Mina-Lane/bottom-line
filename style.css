@@ -4,6 +4,15 @@ html, body {
   font-family: 'Libre Baskerville', sans-serif;
 }
 
+header {
+  margin: 0 auto;
+}
+
+header li {
+  list-styre: none;
+  display: inline-block;
+}
+
 img {
   margin: 10px auto;
   height: auto;
