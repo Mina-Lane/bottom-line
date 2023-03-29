@@ -34,8 +34,6 @@ h1 {
   padding: 30px 0px 40px;
   margin-left: 50px;
   margin-right: 50px;
-  background-image: url("https://www.canva.com/design/DAFeiPZOBdc/view");
-  background-size: cover;
 }
 .header li {
   list-style: none;
@@ -46,6 +44,17 @@ h1 {
   margin:0;
   border:0px;
 }
+
+/*TopBanner Section*/
+#topbanner {
+  background-image: url('https://www.canva.com/design/DAFeiPZOBdc/view');
+  background-size: cover;
+  background-postion: bottom center;
+  height: 700px;
+  width: 100%;
+}
+  
+
 /*Jumbotron Section*/
 .jumbotron {
   background-color: #fff;
