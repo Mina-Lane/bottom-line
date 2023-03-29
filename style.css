@@ -51,9 +51,10 @@ h1 {
   /*background-image: url('https://www.canva.com/design/DAFeiPZOBdc/view');*/
   background-color: #ffc200;
   background-size: cover;
-  background-postion: bottom center;
+  background-postion: top center;
   height: 400px;
   width: 100%;
+  margin: 0;
 }
   
 
