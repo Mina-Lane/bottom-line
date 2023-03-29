@@ -29,33 +29,48 @@ h1 {
 .main {
     background-color: #ffc200;
 }
-/*Header Section*/
-.header {
-  padding: 30px 0px 40px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.header li {
-  list-style: none;
-  display: inline-block;
-}
-.header li a {
-  color: #333;
-  margin:0;
-  border:0px;
-}
 
 /*TopBanner Section*/
-#topbanner {
-  /*background-image: url('https://www.canva.com/design/DAFeiPZOBdc/view');*/
+.topbanner {
   background-color: #ffc200;
   background-size: cover;
-  background-postion: top center;
   height: 400px;
   width: 100%;
   margin: 0;
+  position: relative;
+  text-align: center;
 }
+
+#topbanner h1 {
+  color: #fff;
+  font-size: 50px;
+  position: absolute;
+  top: 40px;
+  left: 15px;
+}
+
+.topbanner .nav {
+  padding: 8px 8px;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.topbanner .nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+.topbanner .nav li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+
+.topbanner .nav li a:hover {
+  color: #666;
+}
+
   
 
 /*Jumbotron Section*/
