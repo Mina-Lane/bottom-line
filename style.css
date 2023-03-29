@@ -3,17 +3,21 @@ html, body {
   padding: 0;
   font-family: 'Libre Baskerville', sans-serif;
 }
+
 img {
   margin: 10px auto;
   height: auto;
   width: auto;
 }
+
 ul {
   text-align: right;
 }
+
 h1 {
   font-size: 20px;
 }
+
 /*Sizing*/
 .container {
   margin: 0 auto;
@@ -30,6 +34,8 @@ h1 {
   padding: 30px 0px 40px;
   margin-left: 50px;
   margin-right: 50px;
+  background-image: src="./Untitled design.png";
+  background-size: cover;
 }
 .header li {
   list-style: none;
