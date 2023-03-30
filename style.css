@@ -82,6 +82,32 @@ h1 {
   color: #666;
 }
 
+/*Searchbar section*/
+.navbar .search-container {
+  float: right;
+  display: block;
+}
+
+.navbar input[type=text] {
+  padding: 5px;
+  font-size: 17px;
+  border: none;
+}
+
+.navbar .search-container button {
+  float: right;
+  margin-right: 8px;
+  padding: 5px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar .search-container button:hover {
+  background: #ccc;
+}
+
 
 /*Jumbotron Section*/
 .jumbotron {
