@@ -138,20 +138,47 @@ h1 {
   padding: 20px;
   text-align: center;
 }
+
+
 /*Expertise Section*/
 .cards {
-  background-color: #ffc200;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 0px 4px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .col {
   display: inline-flex;
   flex-direction: column;
   justify-content: space-between;
-
+  flex: 24%;
+  padding: 0px 4px;
 }
+
+.col img {
+  margin: 4px auto;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .col {
+    flex: 48%;
+    max-width: 48%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
 
 #expertise {
   padding: 20px;
