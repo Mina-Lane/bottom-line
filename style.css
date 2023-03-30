@@ -60,25 +60,28 @@ h1 {
   padding: 8px 8px;
 }
 
-.topbanner .nav {
+.topbanner .navbar {
   padding: 8px 8px;
   position: absolute;
   bottom: 8px;
   right: 16px;
+  line-height: 2;
+  vertical-align: middle;
 }
 
-.topbanner .nav li {
+.topbanner .navbar li {
   list-style: none;
-  display: inline-block;
+  display: block;
+  float: left;
 }
 
-.topbanner .nav li a {
+.topbanner .navbar li a {
   color: #fff;
   text-decoration: none;
   padding: 0px 10px;
 }
 
-.topbanner .nav li a:hover {
+.topbanner .navbar li a:hover {
   color: #666;
 }
 
@@ -92,6 +95,7 @@ h1 {
   padding: 5px;
   font-size: 17px;
   border: none;
+  
 }
 
 .navbar .search-container button {
