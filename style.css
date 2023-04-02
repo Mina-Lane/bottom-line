@@ -143,6 +143,13 @@ ul {
 
 
 /*Expertise Section*/
+#expertise {
+  padding: 20px;
+  background-color: #ffc200;
+  margin: 0;
+  text-align: center;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -181,12 +188,22 @@ ul {
   }
 }
 
-
-#expertise {
-  padding: 20px;
-  background-color: #ffc200;
-  margin: 0;
+/*Cards*/
+.imagetextcontainer {
+  position: relative;
   text-align: center;
+}
+
+.centertext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 36px;
+  text-decoration: none;
+  font-weight: bold;
 }
 /*Footer Section*/
 .footer {
