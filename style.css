@@ -14,8 +14,10 @@ ul {
   text-align: right;
 }
 
-h1 {
-  font-size: 20px;
+.title {
+  font-family: Courgette;
+  color: #fff;
+  font-size: 50px;
 }
 
 /*Sizing*/
