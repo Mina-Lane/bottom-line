@@ -10,23 +10,80 @@ img {
   width: auto;
 }
 
-ul {
-  text-align: right;
-}
-
 .title {
-  font-family: Courgette;
+  font-family: 'pp_editorial_newultraBdIt';
+  font-style: italic;
   color: #fff;
   font-size: 50px;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+}
+
+.banner h2 {
+  font-family: 'pp_editorial_newregular';
+  font-size: 36px;
+}
+
+.banner p {
+  font-family: 'pp_editorial_newitalic';
+  font-style: italic;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: 'pp_editorial_newultraBdIt';
+    src: url('ppeditorialnew-ultrabolditalic-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-ultrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pp_editorial_newitalic';
+    src: url('ppeditorialnew-italic-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pp_editorial_newultraLtIt';
+    src: url('ppeditorialnew-ultralightitalic-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-ultralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pp_editorial_newultralight';
+    src: url('ppeditorialnew-ultralight-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-ultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pp_editorial_newultrabold';
+    src: url('ppeditorialnew-ultrabold-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-ultrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pp_editorial_newregular';
+    src: url('ppeditorialnew-regular-webfont.woff2') format('woff2'),
+         url('ppeditorialnew-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*Sizing*/
 .container {
   margin: 0 auto;
-}
-.spacer {
-  max-width: 1200px;
-  margin: auto;
 }
 .main {
     background-color: #ffc200;
@@ -45,8 +102,6 @@ ul {
 }
 
 #topbanner h1 {
-  color: #fff;
-  font-size: 50px;
   position: absolute;
   top: 40px;
   left: 15px;
@@ -78,6 +133,7 @@ ul {
 }
 
 .topbanner .navbar li a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #fff;
   text-decoration: none;
   padding: 0px 10px;
@@ -123,13 +179,19 @@ ul {
 }
 
 .jumbotron h2 {
-  font-size: 50px;
   margin-bottom: 70px;
   text-align: left;
 }
 
 .jumbotron h2 span {
   color:#ffc200;
+}
+
+@media screen and (max-width: 600px) {
+  .jumbotron {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 }
 
 
@@ -205,6 +267,7 @@ ul {
   text-decoration: none;
   font-weight: bold;
 }
+
 /*Footer Section*/
 .footer {
   padding: 60px 0px;
